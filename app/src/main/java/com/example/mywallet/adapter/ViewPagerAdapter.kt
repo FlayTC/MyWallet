@@ -11,20 +11,16 @@ class ViewPagerAdapter(
 ) : FragmentStateAdapter(fragmentManager, lifecycle) {
 
     private val fragmentList = mutableListOf<Fragment>()
-
     fun addFragment(fragment: Fragment) {
         fragmentList.add(fragment)
         notifyDataSetChanged()
     }
-
     override fun getItemCount(): Int {
         return fragmentList.size
     }
-
     override fun createFragment(position: Int): Fragment {
         return fragmentList[position]
     }
-
     fun getFragment(position: Int): Fragment {
         return fragmentList[position]
     }
