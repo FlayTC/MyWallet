@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="monedas">
+        <item>Dólar</item>
+        <item>Bitcoin</item>
+        <item>Peso Argentino</item>
+        <!-- Agrega más monedas según sea necesario -->
+    </array>
+</resources>

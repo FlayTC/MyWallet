@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DashboardFragment">
+
+
+    <TextView
+        android:id="@+id/currencyDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/pesos" />
+
+    <TextView
+        android:id="@+id/pesoTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currencyDashboard"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:text=""
+        android:gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="39dp"
+
+        android:contentDescription="@string/logout"
+        android:text="@string/logout" />
+
+</RelativeLayout>

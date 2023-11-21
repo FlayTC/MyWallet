@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWalletsActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/addTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/addTextMonto"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/monto"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@+id/addTextNombre"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Spinner
+        android:id="@+id/addspinnerMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/monedas"
+        android:prompt="@string/selecciona_moneda"
+        app:layout_constraintTop_toBottomOf="@+id/addTextMonto"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/addBtnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addspinnerMoneda" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

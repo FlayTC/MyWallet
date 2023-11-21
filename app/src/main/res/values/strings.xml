@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selecciona_moneda">Selecciona una moneda</string>
+    <string name="title_activity_edit_wallet">EditWalletActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="usd_total">USD Total: %s</string>
+    <string name="bit_total">Bit Total: %s</string>
+    <string name="peso_total">PESO Total: %s</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="login">Login</string>
+    <string name="log_btn">Login</string>
+    <string name="logout">LOGOUT</string>
+    <string name="pesos">Pesos</string>
+    <string name="save">Save</string>
+    <string name="monto">Monto</string>
+    <string name="name">Name</string>
+</resources>
